@@ -82,6 +82,6 @@ make build     # glyph program -> UFO -> fontmake -> ttfautohint -> TTF and WOFF
 make gate      # release gate; writes build/gate-report.md
 ```
 
-Other targets: `make check-v1100` (does the program still reproduce the v1.100 outlines), `make bounds`, `make bake-googlefonts`. `python scripts/specimen.py` rebuilds the specimen page, `python scripts/panel.py` the panel sheets, `python scripts/kern_report.py` the kerning comparison.
+Other targets: `make bounds`, `make bake-googlefonts`. `python scripts/specimen.py` rebuilds the specimen page, `python scripts/panel.py` the panel sheets, `python scripts/kern_report.py` the kerning comparison.
 
 Every glyph is labeled in the UFO lib (`org.fontmachine.provenance`) as documented, extrapolated or decided. The gate fails a glyph that claims to be documented when `sources/beam/inventory.py` doesn't back it up.
