@@ -1,9 +1,13 @@
 {
-  "_authored": {"by": "Claude Fable 5.2, live in a Claude Code session", "date": "2026-11-24", "session": "Claude Code, 2026-11-24"},
+  "_authored": {
+    "by": "Claude Fable 5.2, live in a Claude Code session",
+    "date": "2026-11-25",
+    "session": "Claude Code, 2026-11-25"
+  },
   "lede": "A caps-only display face drawn after the lettering of the Bethlehem Steel wordmark, as it ran on catalog covers from 1931 to 1966. The wordmark only ever spelled two words, so the archive holds seven letters. Everything else was cut by the rules those seven follow.",
   "key_documented": "Documented in the source",
   "key_other": "Extrapolated or decided",
-  "banner_note": "Bethlehem's plant south of Buffalo, set in letters the company never drew.",
+  "banner_note": "Bethlehem's mill on the Indiana shore of Lake Michigan, set in letters the company never drew: the wordmark holds no U, N, R, A or O.",
   "charset_intro": "344 glyphs covering Google Fonts Latin Core: every accented capital used across Western, Central and Eastern European Latin, with the lowercase keys typing the same capitals. The seven red letters are the ones the catalogs show. A black glyph is our drawing, made to sit beside them without claiming their evidence.",
   "rules_intro": "Three rules were read off the seven documented letters. A fourth was added for the accents, which the source never needed.",
   "rule1_title": "Sheared stem ends",

@@ -1,6 +1,6 @@
 # Beam Gothic: dossier
 
-Version 2.000 · 2026-11-24 · written live in a Claude Code session
+Version 2.001 · 2026-11-25 · written live in a Claude Code session
 
 This is the working record of the font. It replaces the context dump written after v1.100, which is referred to below as "the dump".
 
@@ -8,7 +8,7 @@ This is the working record of the font. It replaces the context dump written aft
 
 Beam Gothic v2.000 passes the release gate: fontbakery's `googlefonts` profile with 0 FAILs, GF Latin Core coverage confirmed by the `glyphsets` tool, every outline inside its advance width, no curves, and provenance labels that agree with the letter inventory. It went from 54 glyphs and 81 codepoints to 344 glyphs and 339 codepoints.
 
-The three style decisions went to the panel and were picked on 2026-11-25. One piece of metadata is still a placeholder, listed under "Open" at the end. Nothing else is outstanding against the fix plan.
+The three style decisions went to the panel and were picked on 2026-11-25. One item is listed under "Open" at the end. Nothing else is outstanding against the fix plan.
 
 ## The source, and what it documents
 
@@ -91,7 +91,7 @@ The eight WARNs, each read:
 
 1. **Contour count.** Lowercase codepoints show capitals, so `i` has one contour where a font with lowercase has two. Follows from the lowercase decision.
 2. **alt_caron.** `dcaron` and `tcaron` are stored as outlines, so the check cannot inspect them. They show the capitals Ď and Ť, whose ordinary caron is correct. As components they failed the check, which assumes a lowercase d or t.
-3. **Vendor ID** `FMCH` is not registered. Placeholder.
+3. **Vendor ID** `ANDY` is not in Microsoft's registry yet.
 4. **Unreachable subsetting.** Some spacing and combining accents are in GF Latin Core but not in Google's `latin` or `latin-ext` serving subsets. That is a mismatch between two Google lists.
 5. **Shape languages.** A few auxiliary letters beyond Core (Ĕ Ĭ Ŏ Ō Ŭ Ŀ) are absent.
 6. **Outline alignment** and 7. **short segments.** Sheared ends put points near, but not on, the baseline and cap line, and M, N and W have 16 to 19 unit steps where a diagonal meets a stem. All of these are v1.100 geometry.
@@ -110,4 +110,4 @@ The eight WARNs, each read:
 
 ## Open
 
-1. A registered vendor ID to replace `FMCH`.
+1. The vendor ID is `ANDY` as of v2.001. It still has to be registered with Microsoft, which is a form only the owner can submit.

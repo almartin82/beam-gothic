@@ -37,9 +37,9 @@
     <key>openTypeNameManufacturerURL</key>
     <string>https://github.com/almartin82/beam-gothic</string>
     <key>openTypeNameUniqueID</key>
-    <string>2.000;FMCH;BeamGothic-Regular</string>
+    <string>2.001;ANDY;BeamGothic-Regular</string>
     <key>openTypeNameVersion</key>
-    <string>Version 2.000</string>
+    <string>Version 2.001</string>
     <key>openTypeOS2Panose</key>
     <array>
       <integer>2</integer>
@@ -66,7 +66,7 @@
     <key>openTypeOS2TypoLineGap</key>
     <integer>0</integer>
     <key>openTypeOS2VendorID</key>
-    <string>FMCH</string>
+    <string>ANDY</string>
     <key>openTypeOS2WeightClass</key>
     <integer>400</integer>
     <key>openTypeOS2WidthClass</key>
@@ -96,7 +96,7 @@
     <key>versionMajor</key>
     <integer>2</integer>
     <key>versionMinor</key>
-    <integer>0</integer>
+    <integer>1</integer>
     <key>xHeight</key>
     <integer>700</integer>
   </dict>

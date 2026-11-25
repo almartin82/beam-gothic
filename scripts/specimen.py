@@ -68,7 +68,7 @@ p {{ max-width:68ch; margin:0 0 14px; }}
 .key i {{ display:inline-block; width:14px; height:14px; margin-right:8px; vertical-align:-2px; background:var(--ink); }}
 .key .d i {{ background:var(--red); }}
 .banner {{ background:var(--ink); color:var(--ground); padding:44px 40px 36px; margin-top:56px; }}
-.banner .beam {{ font-size:clamp(48px,11vw,132px); }}
+.banner .beam {{ font-size:clamp(48px,12.6vw,150px); white-space:nowrap; }}
 .banner .beam + .beam {{ font-size:clamp(24px,5.2vw,62px); color:var(--red); margin-top:6px; }}
 .banner p {{ margin:18px 0 0; color:#b9b4a6; }}
 .grid {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(74px,1fr)); border-top:1px solid var(--rule); border-left:1px solid var(--rule); margin-top:22px; }}
@@ -95,7 +95,7 @@ footer {{ margin-top:64px; padding-top:16px; border-top:3px solid var(--ink); fo
 <p class="lede">{P['lede']}</p>
 <div class="key mono"><span class="d"><i></i>{P['key_documented']}</span><span><i></i>{P['key_other']}</span></div>
 
-<div class="banner"><div class="beam">LACKAWANNA</div><div class="beam">PLANT · NEW YORK</div><p>{P['banner_note']}</p></div>
+<div class="banner"><div class="beam">BURNS HARBOR</div><div class="beam">PLANT · INDIANA</div><p>{P['banner_note']}</p></div>
 
 <h2 class="mono">Character set</h2>
 <p>{P['charset_intro']}</p>

@@ -3,14 +3,14 @@
 FAMILY = "Beam Gothic"
 STYLE = "Regular"
 VERSION_MAJOR = 2
-VERSION_MINOR = 0            # head.fontRevision 2.000
+VERSION_MINOR = 1            # head.fontRevision 2.001
 
 REPO_URL = "https://github.com/almartin82/beam-gothic"
 COPYRIGHT = f"Copyright 2026 The Beam Gothic Project Authors ({REPO_URL})"
 DESIGNER = "Andy Martin"
 MANUFACTURER = "font-machine"
-# Placeholder until a vendor ID is registered with Microsoft.
-VENDOR_ID = "FMCH"
+# Chosen by Andy, 2026-11-25. Not yet registered with Microsoft.
+VENDOR_ID = "ANDY"
 DESCRIPTION = (
     "Beam Gothic is an original caps-only display face drawn after the lettering of the "
     "Bethlehem Steel wordmark, c. 1931-1966: sheared stems, spurred arms, no curves."

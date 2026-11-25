@@ -2,11 +2,26 @@
 
 A caps-only display face drawn after the lettering of the Bethlehem Steel wordmark, c. 1931 to 1966. Seven letters (B E H L M S T) are documented in the source. Everything else follows three cutting rules read from them: sheared stem ends, spurred arms, no curves.
 
-Version 2.000 covers Google Fonts Latin Core: 344 glyphs, accents composed through anchors, class kerning, `mark`, `mkmk`, `ccmp` and `locl`. Licensed under the SIL Open Font License 1.1.
+Version 2.001 covers Google Fonts Latin Core: 344 glyphs, accents composed through anchors, class kerning, `mark`, `mkmk`, `ccmp` and `locl`. Licensed under the SIL Open Font License 1.1.
 
 Beam Gothic is an original drawing, not the trademark. It does not contain the hexagonal I-beam emblem.
 
 ![Specimen](documentation/specimen/BeamGothic-Specimen.png)
+
+## Sources
+
+The wordmark as it ran on Bethlehem Steel catalog covers, opened as page images on the Internet Archive. The 1961 cover is the main letterform reference. (The specimen above is a picture, so its source list isn't clickable. These are the same links.)
+
+| Year | Catalog |
+|---|---|
+| 1966 | [Who Says Steel Framing Isn't Best for Apartments?](https://archive.org/details/whosayssteelfram00beth) |
+| 1961 | [Bethlehem Structural Shapes](https://archive.org/details/BethlehemStructuralShapesInformationAndTablesForArchitectsEngineers_904) |
+| 1960 | [Bethlehem Steel H-Piles](https://archive.org/details/steelhpiles00beth) |
+| 1959 | [Bethlehem Open-Web Steel Joists, "S" Series](https://archive.org/details/BethlehemOpen-webSteelJoistssSeries_825) |
+| 1950 | [Bethlehem Steel Fence catalog](https://archive.org/details/BethelemSteelFenceBarbedWireFencePostsBaleTiesNailsAndStaples) |
+| 1937 | [Bethlehem Carbon Steel Bars and Special Sections](https://archive.org/details/BethlehemCarbonSteelBarsAndSpecialSectionsWithProfilesTables) |
+| 1936 | [Bethlehem Alloy and Special Steels, Catalogue 107](https://archive.org/details/bethlehem-steel-company-pdf-a) |
+| 1931 | [Bethlehem Sections](https://archive.org/details/BethlehemSteelCompanyCCA72866) |
 
 ## Files
 

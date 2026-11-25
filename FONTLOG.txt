@@ -21,6 +21,9 @@ with fontmake. Licensed under the SIL Open Font License, Version 1.1 (see OFL.tx
 ChangeLog
 ---------
 
+2026-11-25 (Andy Martin) Beam Gothic v2.001
+- Vendor ID set to ANDY (was the placeholder FMCH). No outline changes.
+
 2026-11-24 (Andy Martin) Beam Gothic v2.000
 - Character set extended from 81 codepoints to Google Fonts Latin Core (339 codepoints, 344 glyphs).
 - New: the rest of printable ASCII, en dash, double and low quotes, guillemets, ellipsis, bullet,
