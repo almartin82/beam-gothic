@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Edieresis" format="2">
+  <advance width="430"/>
+  <unicode hex="00CB"/>
+  <anchor x="215" y="850" name="top"/>
+  <anchor x="215" y="0" name="bottom"/>
+  <anchor x="330" y="0" name="ogonek"/>
+  <outline>
+    <component base="E"/>
+    <component base="uni0308" xOffset="215"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>composed_of</key>
+        <array>
+          <string>E</string>
+          <string>uni0308</string>
+        </array>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>shear</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

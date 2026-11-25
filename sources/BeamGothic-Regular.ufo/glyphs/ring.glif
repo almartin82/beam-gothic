@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ring" format="2">
+  <advance width="216"/>
+  <unicode hex="02DA"/>
+  <outline>
+    <component base="uni030A" xOffset="108"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>component_of</key>
+        <string>uni030A</string>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>no-curves</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

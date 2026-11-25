@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0219" format="2">
+  <advance width="470"/>
+  <unicode hex="0219"/>
+  <anchor x="235" y="700" name="top"/>
+  <anchor x="235" y="-200" name="bottom"/>
+  <outline>
+    <component base="S"/>
+    <component base="uni0326" xOffset="235"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>composed_of</key>
+        <array>
+          <string>S</string>
+          <string>uni0326</string>
+        </array>
+        <key>decision</key>
+        <string>P2-lowercase:A</string>
+        <key>label</key>
+        <string>decided</string>
+        <key>rules</key>
+        <array>
+          <string>shear</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

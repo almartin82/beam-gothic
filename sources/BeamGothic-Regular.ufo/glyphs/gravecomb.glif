@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gravecomb" format="2">
+  <unicode hex="0300"/>
+  <anchor x="0" y="700" name="_top"/>
+  <anchor x="0" y="850" name="top"/>
+  <outline>
+    <contour>
+      <point x="-15" y="745" type="line"/>
+      <point x="85" y="745" type="line"/>
+      <point x="15" y="870" type="line"/>
+      <point x="-85" y="870" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>shear</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

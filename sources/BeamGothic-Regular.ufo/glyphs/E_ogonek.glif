@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eogonek" format="2">
+  <advance width="430"/>
+  <unicode hex="0118"/>
+  <anchor x="215" y="700" name="top"/>
+  <anchor x="215" y="0" name="bottom"/>
+  <anchor x="330" y="0" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="246" y="-160" type="line"/>
+      <point x="392" y="-160" type="line"/>
+      <point x="336" y="-92" type="line"/>
+      <point x="316" y="-92" type="line"/>
+      <point x="343" y="0" type="line"/>
+      <point x="400" y="0" type="line"/>
+      <point x="344" y="114" type="line"/>
+      <point x="166" y="114" type="line"/>
+      <point x="166" y="300" type="line"/>
+      <point x="294" y="300" type="line"/>
+      <point x="350" y="400" type="line"/>
+      <point x="166" y="400" type="line"/>
+      <point x="166" y="586" type="line"/>
+      <point x="344" y="586" type="line"/>
+      <point x="400" y="700" type="line"/>
+      <point x="30" y="700" type="line"/>
+      <point x="30" y="0" type="line"/>
+      <point x="273" y="0" type="line"/>
+      <point x="246" y="-92" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>composed_of</key>
+        <array>
+          <string>E</string>
+          <string>uni0328</string>
+        </array>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>spur</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

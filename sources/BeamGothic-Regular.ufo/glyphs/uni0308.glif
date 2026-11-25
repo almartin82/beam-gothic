@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0308" format="2">
+  <unicode hex="0308"/>
+  <anchor x="0" y="700" name="_top"/>
+  <anchor x="0" y="850" name="top"/>
+  <outline>
+    <contour>
+      <point x="-106" y="749" type="line"/>
+      <point x="-22" y="787" type="line"/>
+      <point x="-22" y="871" type="line"/>
+      <point x="-106" y="833" type="line"/>
+    </contour>
+    <contour>
+      <point x="22" y="749" type="line"/>
+      <point x="106" y="787" type="line"/>
+      <point x="106" y="871" type="line"/>
+      <point x="22" y="833" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>shear</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

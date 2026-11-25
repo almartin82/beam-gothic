@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="plusminus" format="2">
+  <advance width="440"/>
+  <unicode hex="00B1"/>
+  <outline>
+    <contour>
+      <point x="30" y="100" type="line"/>
+      <point x="410" y="100" type="line"/>
+      <point x="410" y="200" type="line"/>
+      <point x="30" y="200" type="line"/>
+    </contour>
+    <contour>
+      <point x="170" y="220" type="line"/>
+      <point x="270" y="220" type="line"/>
+      <point x="270" y="360" type="line"/>
+      <point x="410" y="360" type="line"/>
+      <point x="410" y="460" type="line"/>
+      <point x="270" y="460" type="line"/>
+      <point x="270" y="600" type="line"/>
+      <point x="170" y="600" type="line"/>
+      <point x="170" y="460" type="line"/>
+      <point x="30" y="460" type="line"/>
+      <point x="30" y="360" type="line"/>
+      <point x="170" y="360" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array/>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

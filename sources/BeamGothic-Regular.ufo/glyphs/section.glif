@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="section" format="2">
+  <advance width="390"/>
+  <unicode hex="00A7"/>
+  <outline>
+    <contour>
+      <point x="30" y="-70" type="line"/>
+      <point x="316" y="-70" type="line"/>
+      <point x="360" y="-26" type="line"/>
+      <point x="360" y="554" type="line"/>
+      <point x="134" y="554" type="line"/>
+      <point x="134" y="616" type="line"/>
+      <point x="304" y="616" type="line"/>
+      <point x="360" y="700" type="line"/>
+      <point x="74" y="700" type="line"/>
+      <point x="30" y="656" type="line"/>
+      <point x="30" y="180" type="line"/>
+      <point x="256" y="180" type="line"/>
+      <point x="256" y="14" type="line"/>
+      <point x="86" y="14" type="line"/>
+    </contour>
+    <contour>
+      <point x="146" y="264" type="line"/>
+      <point x="134" y="276" type="line"/>
+      <point x="134" y="458" type="line"/>
+      <point x="146" y="470" type="line"/>
+      <point x="244" y="470" type="line"/>
+      <point x="256" y="458" type="line"/>
+      <point x="256" y="276" type="line"/>
+      <point x="244" y="264" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>no-curves</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

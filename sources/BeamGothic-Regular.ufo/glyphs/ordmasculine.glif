@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ordmasculine" format="2">
+  <advance width="306"/>
+  <unicode hex="00BA"/>
+  <outline>
+    <contour>
+      <point x="55" y="294" type="line"/>
+      <point x="252" y="294" type="line"/>
+      <point x="287" y="329" type="line"/>
+      <point x="287" y="665" type="line"/>
+      <point x="252" y="700" type="line"/>
+      <point x="55" y="700" type="line"/>
+      <point x="20" y="665" type="line"/>
+      <point x="20" y="329" type="line"/>
+    </contour>
+    <contour>
+      <point x="112" y="360" type="line"/>
+      <point x="99" y="373" type="line"/>
+      <point x="99" y="621" type="line"/>
+      <point x="112" y="634" type="line"/>
+      <point x="195" y="634" type="line"/>
+      <point x="208" y="621" type="line"/>
+      <point x="208" y="373" type="line"/>
+      <point x="195" y="360" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>no-curves</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

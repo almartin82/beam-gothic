@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="underscore" format="2">
+  <advance width="500"/>
+  <unicode hex="005F"/>
+  <outline>
+    <contour>
+      <point x="0" y="-170" type="line"/>
+      <point x="500" y="-170" type="line"/>
+      <point x="500" y="-90" type="line"/>
+      <point x="0" y="-90" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array/>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

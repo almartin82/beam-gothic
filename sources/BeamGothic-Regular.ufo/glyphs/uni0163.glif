@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0163" format="2">
+  <advance width="500"/>
+  <unicode hex="0163"/>
+  <anchor x="250" y="700" name="top"/>
+  <anchor x="250" y="-154" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="182" y="0" type="line"/>
+      <point x="318" y="61" type="line"/>
+      <point x="318" y="586" type="line"/>
+      <point x="414" y="586" type="line"/>
+      <point x="470" y="700" type="line"/>
+      <point x="30" y="700" type="line"/>
+      <point x="86" y="586" type="line"/>
+      <point x="182" y="586" type="line"/>
+    </contour>
+    <contour>
+      <point x="158" y="-154" type="line"/>
+      <point x="302" y="-154" type="line"/>
+      <point x="302" y="10" type="line"/>
+      <point x="232" y="10" type="line"/>
+      <point x="232" y="-84" type="line"/>
+      <point x="214" y="-84" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>composed_of</key>
+        <array>
+          <string>T</string>
+          <string>uni0327</string>
+        </array>
+        <key>decision</key>
+        <string>P2-lowercase:A</string>
+        <key>label</key>
+        <string>decided</string>
+        <key>rules</key>
+        <array>
+          <string>spur</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

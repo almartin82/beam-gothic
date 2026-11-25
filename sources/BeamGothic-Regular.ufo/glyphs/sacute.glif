@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sacute" format="2">
+  <advance width="470"/>
+  <unicode hex="015B"/>
+  <anchor x="235" y="850" name="top"/>
+  <anchor x="235" y="0" name="bottom"/>
+  <outline>
+    <component base="S"/>
+    <component base="acutecomb" xOffset="235"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>composed_of</key>
+        <array>
+          <string>S</string>
+          <string>acutecomb</string>
+        </array>
+        <key>decision</key>
+        <string>P2-lowercase:A</string>
+        <key>label</key>
+        <string>decided</string>
+        <key>rules</key>
+        <array>
+          <string>shear</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

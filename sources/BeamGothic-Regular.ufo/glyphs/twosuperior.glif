@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="twosuperior" format="2">
+  <advance width="277"/>
+  <unicode hex="00B2"/>
+  <outline>
+    <contour>
+      <point x="55" y="294" type="line"/>
+      <point x="258" y="294" type="line"/>
+      <point x="225" y="360" type="line"/>
+      <point x="112" y="360" type="line"/>
+      <point x="99" y="373" type="line"/>
+      <point x="99" y="468" type="line"/>
+      <point x="237" y="468" type="line"/>
+      <point x="258" y="489" type="line"/>
+      <point x="258" y="665" type="line"/>
+      <point x="223" y="700" type="line"/>
+      <point x="20" y="700" type="line"/>
+      <point x="52" y="634" type="line"/>
+      <point x="166" y="634" type="line"/>
+      <point x="179" y="621" type="line"/>
+      <point x="179" y="526" type="line"/>
+      <point x="41" y="526" type="line"/>
+      <point x="20" y="505" type="line"/>
+      <point x="20" y="329" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>no-curves</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

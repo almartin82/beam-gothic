@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="semicolon" format="2">
+  <advance width="196"/>
+  <unicode hex="003B"/>
+  <outline>
+    <contour>
+      <point x="64" y="-140" type="line"/>
+      <point x="122" y="-140" type="line"/>
+      <point x="166" y="197" type="line"/>
+      <point x="30" y="136" type="line"/>
+    </contour>
+    <contour>
+      <point x="30" y="330" type="line"/>
+      <point x="166" y="391" type="line"/>
+      <point x="166" y="527" type="line"/>
+      <point x="30" y="466" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>shear</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

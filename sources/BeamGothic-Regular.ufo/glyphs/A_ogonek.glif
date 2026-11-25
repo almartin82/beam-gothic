@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Aogonek" format="2">
+  <advance width="548"/>
+  <unicode hex="0104"/>
+  <anchor x="268" y="700" name="top"/>
+  <anchor x="268" y="0" name="bottom"/>
+  <anchor x="440" y="0" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="356" y="-160" type="line"/>
+      <point x="502" y="-160" type="line"/>
+      <point x="446" y="-92" type="line"/>
+      <point x="426" y="-92" type="line"/>
+      <point x="461" y="28" type="line"/>
+      <point x="522" y="56" type="line"/>
+      <point x="386" y="700" type="line"/>
+      <point x="138" y="589" type="line"/>
+      <point x="14" y="0" type="line"/>
+      <point x="164" y="68" type="line"/>
+      <point x="190" y="190" type="line"/>
+      <point x="358" y="190" type="line"/>
+      <point x="392" y="31" type="line"/>
+      <point x="356" y="-92" type="line"/>
+    </contour>
+    <contour>
+      <point x="210" y="286" type="line"/>
+      <point x="274" y="586" type="line"/>
+      <point x="338" y="286" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>composed_of</key>
+        <array>
+          <string>A</string>
+          <string>uni0328</string>
+        </array>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>shear</string>
+          <string>spur</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

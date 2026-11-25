@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="g" format="2">
+  <advance width="500"/>
+  <unicode hex="0067"/>
+  <anchor x="250" y="700" name="top"/>
+  <anchor x="250" y="0" name="bottom"/>
+  <outline>
+    <component base="G"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>component_of</key>
+        <string>G</string>
+        <key>decision</key>
+        <string>P2-lowercase:A</string>
+        <key>label</key>
+        <string>decided</string>
+        <key>rules</key>
+        <array>
+          <string>spur</string>
+          <string>no-curves</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

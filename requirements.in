@@ -1,0 +1,13 @@
+fontmake
+ufoLib2
+ufo2ft
+fonttools[woff,ufo,pathops,unicode]
+fontbakery[googlefonts]
+glyphsets
+gftools
+skia-pathops
+ttfautohint-py
+shapely
+pillow
+brotli
+uharfbuzz

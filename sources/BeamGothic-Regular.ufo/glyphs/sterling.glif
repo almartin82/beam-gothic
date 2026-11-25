@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sterling" format="2">
+  <advance width="500"/>
+  <unicode hex="00A3"/>
+  <outline>
+    <contour>
+      <point x="30" y="0" type="line"/>
+      <point x="470" y="0" type="line"/>
+      <point x="414" y="114" type="line"/>
+      <point x="256" y="114" type="line"/>
+      <point x="256" y="300" type="line"/>
+      <point x="360" y="300" type="line"/>
+      <point x="360" y="400" type="line"/>
+      <point x="256" y="400" type="line"/>
+      <point x="256" y="586" type="line"/>
+      <point x="324" y="586" type="line"/>
+      <point x="324" y="500" type="line"/>
+      <point x="440" y="552" type="line"/>
+      <point x="440" y="670" type="line"/>
+      <point x="410" y="670" type="line"/>
+      <point x="380" y="700" type="line"/>
+      <point x="180" y="700" type="line"/>
+      <point x="140" y="660" type="line"/>
+      <point x="120" y="660" type="line"/>
+      <point x="120" y="400" type="line"/>
+      <point x="40" y="400" type="line"/>
+      <point x="40" y="300" type="line"/>
+      <point x="120" y="300" type="line"/>
+      <point x="120" y="114" type="line"/>
+      <point x="30" y="114" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>shear</string>
+          <string>spur</string>
+          <string>no-curves</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

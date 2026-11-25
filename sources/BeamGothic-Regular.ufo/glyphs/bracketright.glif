@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bracketright" format="2">
+  <advance width="270"/>
+  <unicode hex="005D"/>
+  <outline>
+    <contour>
+      <point x="20" y="-70" type="line"/>
+      <point x="230" y="-70" type="line"/>
+      <point x="230" y="770" type="line"/>
+      <point x="20" y="770" type="line"/>
+      <point x="76" y="678" type="line"/>
+      <point x="120" y="678" type="line"/>
+      <point x="120" y="22" type="line"/>
+      <point x="76" y="22" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>spur</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

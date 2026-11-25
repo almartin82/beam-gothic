@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0304" format="2">
+  <unicode hex="0304"/>
+  <anchor x="0" y="700" name="_top"/>
+  <anchor x="0" y="850" name="top"/>
+  <outline>
+    <contour>
+      <point x="-125" y="765" type="line"/>
+      <point x="80" y="765" type="line"/>
+      <point x="125" y="845" type="line"/>
+      <point x="-80" y="845" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>spur</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

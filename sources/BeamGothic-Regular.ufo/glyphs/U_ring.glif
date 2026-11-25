@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uring" format="2">
+  <advance width="510"/>
+  <unicode hex="016E"/>
+  <anchor x="255" y="850" name="top"/>
+  <anchor x="255" y="0" name="bottom"/>
+  <anchor x="318" y="0" name="ogonek"/>
+  <outline>
+    <component base="U"/>
+    <component base="uni030A" xOffset="255"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>composed_of</key>
+        <array>
+          <string>U</string>
+          <string>uni030A</string>
+        </array>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>no-curves</string>
+          <string>shear</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

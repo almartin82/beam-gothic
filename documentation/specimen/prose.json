@@ -1,0 +1,20 @@
+{
+  "_authored": {"by": "Claude Fable 5.2, live in a Claude Code session", "date": "2026-11-24", "session": "Claude Code, 2026-11-24"},
+  "lede": "A caps-only display face drawn after the lettering of the Bethlehem Steel wordmark, as it ran on catalog covers from 1931 to 1966. The wordmark only ever spelled two words, so the archive holds seven letters. Everything else was cut by the rules those seven follow.",
+  "key_documented": "Documented in the source",
+  "key_other": "Extrapolated or decided",
+  "banner_note": "Bethlehem's plant south of Buffalo, set in letters the company never drew.",
+  "charset_intro": "344 glyphs covering Google Fonts Latin Core: every accented capital used across Western, Central and Eastern European Latin, with the lowercase keys typing the same capitals. The seven red letters are the ones the catalogs show. A black glyph is our drawing, made to sit beside them without claiming their evidence.",
+  "rules_intro": "Three rules were read off the seven documented letters. A fourth was added for the accents, which the source never needed.",
+  "rule1_title": "Sheared stem ends",
+  "rule1": "Every free stem end is cut on the same rising diagonal, slope 0.45, low point at the left. Ends that join another stroke stay square. Read from the T, H and M.",
+  "rule2_title": "Spurred arms",
+  "rule2": "On a free arm end the outer edge runs 56 units longer than the inner. Top arms point up and feet point down. Read from the E and L.",
+  "rule3_title": "No curves",
+  "rule3": "Bowls and rounds are rectangles with clipped corners, 60 units outside and 22 inside. Read from the B and S, and carried through the O, the figures and the ring accent.",
+  "rule4_title": "Accents: drawn once, kept low",
+  "rule4": "Each accent is cut in the same language: the acute and grave are sheared slabs, the dieresis is two small periods, the circumflex and caron are chevrons, the tilde a zigzag, the ring a clipped square. They sit 45 units above the cap line and stay wide and flat, because letters this heavy can carry a low accent and a tall one would force the lines apart. Every accented letter is composed from a letter and its accent, never redrawn.",
+  "languages_intro": "Set in a few of the languages the character set covers.",
+  "sources_intro": "All opened as page images on the Internet Archive. Dates come from the item records. The 1961 cover is the main letterform reference.",
+  "footer": "Beam Gothic is an original drawing, not the trademark. It leaves out the hexagonal I-beam emblem and is not offered as a way to set the wordmark. Licensed under the SIL Open Font License 1.1."
+}

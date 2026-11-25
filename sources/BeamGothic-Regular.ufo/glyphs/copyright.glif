@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="copyright" format="2">
+  <advance width="760"/>
+  <unicode hex="00A9"/>
+  <outline>
+    <contour>
+      <point x="140" y="0" type="line"/>
+      <point x="620" y="0" type="line"/>
+      <point x="730" y="110" type="line"/>
+      <point x="730" y="590" type="line"/>
+      <point x="620" y="700" type="line"/>
+      <point x="140" y="700" type="line"/>
+      <point x="30" y="590" type="line"/>
+      <point x="30" y="110" type="line"/>
+    </contour>
+    <contour>
+      <point x="166" y="62" type="line"/>
+      <point x="92" y="136" type="line"/>
+      <point x="92" y="564" type="line"/>
+      <point x="166" y="638" type="line"/>
+      <point x="594" y="638" type="line"/>
+      <point x="668" y="564" type="line"/>
+      <point x="668" y="136" type="line"/>
+      <point x="594" y="62" type="line"/>
+    </contour>
+    <contour>
+      <point x="299" y="154" type="line"/>
+      <point x="495" y="154" type="line"/>
+      <point x="463" y="218" type="line"/>
+      <point x="354" y="218" type="line"/>
+      <point x="341" y="230" type="line"/>
+      <point x="341" y="470" type="line"/>
+      <point x="354" y="482" type="line"/>
+      <point x="463" y="482" type="line"/>
+      <point x="495" y="546" type="line"/>
+      <point x="299" y="546" type="line"/>
+      <point x="265" y="512" type="line"/>
+      <point x="265" y="188" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>no-curves</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

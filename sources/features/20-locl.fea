@@ -1,0 +1,24 @@
+# Romanian and Moldovan write S and T with a comma below, not a cedilla.
+lookup locl_romanian {
+    sub Scedilla by uni0218;
+    sub scedilla by uni0219;
+    sub uni0162 by uni021A;
+    sub uni0163 by uni021B;
+} locl_romanian;
+
+# In the Turkic languages lowercase i is the dotted letter. The lowercase keys type capitals,
+# so i must show its dot there.
+lookup locl_dotted_i {
+    sub i by i.loclTRK;
+} locl_dotted_i;
+
+feature locl {
+    script latn;
+    language ROM; lookup locl_romanian;
+    language MOL; lookup locl_romanian;
+    language TRK; lookup locl_dotted_i;
+    language AZE; lookup locl_dotted_i;
+    language CRT; lookup locl_dotted_i;
+    language KAZ; lookup locl_dotted_i;
+    language TAT; lookup locl_dotted_i;
+} locl;

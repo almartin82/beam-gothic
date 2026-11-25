@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Dcaron" format="2">
+  <advance width="510"/>
+  <unicode hex="010E"/>
+  <anchor x="255" y="850" name="top"/>
+  <anchor x="255" y="0" name="bottom"/>
+  <outline>
+    <component base="D"/>
+    <component base="uni030C" xOffset="255"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>composed_of</key>
+        <array>
+          <string>D</string>
+          <string>uni030C</string>
+        </array>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>no-curves</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

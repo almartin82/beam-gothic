@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Thorn" format="2">
+  <advance width="470"/>
+  <unicode hex="00DE"/>
+  <anchor x="235" y="700" name="top"/>
+  <anchor x="235" y="0" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="30" y="0" type="line"/>
+      <point x="166" y="61" type="line"/>
+      <point x="166" y="150" type="line"/>
+      <point x="380" y="150" type="line"/>
+      <point x="440" y="210" type="line"/>
+      <point x="440" y="500" type="line"/>
+      <point x="380" y="560" type="line"/>
+      <point x="166" y="560" type="line"/>
+      <point x="166" y="700" type="line"/>
+      <point x="30" y="639" type="line"/>
+    </contour>
+    <contour>
+      <point x="166" y="250" type="line"/>
+      <point x="166" y="446" type="line"/>
+      <point x="282" y="446" type="line"/>
+      <point x="304" y="424" type="line"/>
+      <point x="304" y="272" type="line"/>
+      <point x="282" y="250" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>shear</string>
+          <string>no-curves</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

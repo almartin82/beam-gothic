@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="percent" format="2">
+  <advance width="620"/>
+  <unicode hex="0025"/>
+  <outline>
+    <contour>
+      <point x="64" y="400" type="line"/>
+      <point x="192" y="400" type="line"/>
+      <point x="226" y="434" type="line"/>
+      <point x="226" y="666" type="line"/>
+      <point x="192" y="700" type="line"/>
+      <point x="64" y="700" type="line"/>
+      <point x="30" y="666" type="line"/>
+      <point x="30" y="434" type="line"/>
+    </contour>
+    <contour>
+      <point x="106" y="460" type="line"/>
+      <point x="96" y="470" type="line"/>
+      <point x="96" y="630" type="line"/>
+      <point x="106" y="640" type="line"/>
+      <point x="150" y="640" type="line"/>
+      <point x="160" y="630" type="line"/>
+      <point x="160" y="470" type="line"/>
+      <point x="150" y="460" type="line"/>
+    </contour>
+    <contour>
+      <point x="110" y="0" type="line"/>
+      <point x="202" y="0" type="line"/>
+      <point x="510" y="700" type="line"/>
+      <point x="418" y="700" type="line"/>
+    </contour>
+    <contour>
+      <point x="428" y="0" type="line"/>
+      <point x="556" y="0" type="line"/>
+      <point x="590" y="34" type="line"/>
+      <point x="590" y="266" type="line"/>
+      <point x="556" y="300" type="line"/>
+      <point x="428" y="300" type="line"/>
+      <point x="394" y="266" type="line"/>
+      <point x="394" y="34" type="line"/>
+    </contour>
+    <contour>
+      <point x="470" y="60" type="line"/>
+      <point x="460" y="70" type="line"/>
+      <point x="460" y="230" type="line"/>
+      <point x="470" y="240" type="line"/>
+      <point x="514" y="240" type="line"/>
+      <point x="524" y="230" type="line"/>
+      <point x="524" y="70" type="line"/>
+      <point x="514" y="60" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>no-curves</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

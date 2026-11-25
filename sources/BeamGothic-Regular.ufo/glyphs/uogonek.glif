@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uogonek" format="2">
+  <advance width="510"/>
+  <unicode hex="0173"/>
+  <anchor x="255" y="700" name="top"/>
+  <anchor x="255" y="0" name="bottom"/>
+  <anchor x="318" y="0" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="234" y="-160" type="line"/>
+      <point x="380" y="-160" type="line"/>
+      <point x="324" y="-92" type="line"/>
+      <point x="304" y="-92" type="line"/>
+      <point x="331" y="0" type="line"/>
+      <point x="420" y="0" type="line"/>
+      <point x="480" y="60" type="line"/>
+      <point x="480" y="700" type="line"/>
+      <point x="344" y="639" type="line"/>
+      <point x="344" y="136" type="line"/>
+      <point x="322" y="114" type="line"/>
+      <point x="188" y="114" type="line"/>
+      <point x="166" y="136" type="line"/>
+      <point x="166" y="700" type="line"/>
+      <point x="30" y="639" type="line"/>
+      <point x="30" y="60" type="line"/>
+      <point x="90" y="0" type="line"/>
+      <point x="261" y="0" type="line"/>
+      <point x="234" y="-92" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>composed_of</key>
+        <array>
+          <string>U</string>
+          <string>uni0328</string>
+        </array>
+        <key>decision</key>
+        <string>P2-lowercase:A</string>
+        <key>label</key>
+        <string>decided</string>
+        <key>rules</key>
+        <array>
+          <string>no-curves</string>
+          <string>shear</string>
+          <string>spur</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

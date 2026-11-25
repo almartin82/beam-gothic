@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ycircumflex" format="2">
+  <advance width="528"/>
+  <unicode hex="0177"/>
+  <anchor x="276" y="850" name="top"/>
+  <anchor x="276" y="0" name="bottom"/>
+  <outline>
+    <component base="Y"/>
+    <component base="uni0302" xOffset="276"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>composed_of</key>
+        <array>
+          <string>Y</string>
+          <string>uni0302</string>
+        </array>
+        <key>decision</key>
+        <string>P2-lowercase:A</string>
+        <key>label</key>
+        <string>decided</string>
+        <key>rules</key>
+        <array>
+          <string>shear</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

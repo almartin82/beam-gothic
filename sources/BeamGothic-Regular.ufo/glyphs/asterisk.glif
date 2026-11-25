@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asterisk" format="2">
+  <advance width="348"/>
+  <unicode hex="002A"/>
+  <outline>
+    <contour>
+      <point x="139" y="390" type="line"/>
+      <point x="209" y="390" type="line"/>
+      <point x="209" y="484" type="line"/>
+      <point x="291" y="437" type="line"/>
+      <point x="326" y="498" type="line"/>
+      <point x="244" y="545" type="line"/>
+      <point x="326" y="592" type="line"/>
+      <point x="291" y="653" type="line"/>
+      <point x="209" y="606" type="line"/>
+      <point x="209" y="700" type="line"/>
+      <point x="139" y="700" type="line"/>
+      <point x="139" y="606" type="line"/>
+      <point x="57" y="653" type="line"/>
+      <point x="22" y="592" type="line"/>
+      <point x="104" y="545" type="line"/>
+      <point x="22" y="498" type="line"/>
+      <point x="57" y="437" type="line"/>
+      <point x="139" y="484" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array/>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

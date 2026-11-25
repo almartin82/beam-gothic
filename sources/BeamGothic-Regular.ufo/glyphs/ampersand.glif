@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ampersand" format="2">
+  <advance width="530"/>
+  <unicode hex="0026"/>
+  <outline>
+    <contour>
+      <point x="90" y="0" type="line"/>
+      <point x="428" y="0" type="line"/>
+      <point x="428" y="300" type="line"/>
+      <point x="444" y="300" type="line"/>
+      <point x="500" y="400" type="line"/>
+      <point x="428" y="400" type="line"/>
+      <point x="428" y="520" type="line"/>
+      <point x="292" y="459" type="line"/>
+      <point x="292" y="400" type="line"/>
+      <point x="166" y="400" type="line"/>
+      <point x="166" y="586" type="line"/>
+      <point x="304" y="586" type="line"/>
+      <point x="360" y="700" type="line"/>
+      <point x="90" y="700" type="line"/>
+      <point x="30" y="640" type="line"/>
+      <point x="30" y="60" type="line"/>
+    </contour>
+    <contour>
+      <point x="166" y="114" type="line"/>
+      <point x="166" y="300" type="line"/>
+      <point x="292" y="300" type="line"/>
+      <point x="292" y="114" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>decision</key>
+        <string>P2-ampersand:A</string>
+        <key>label</key>
+        <string>decided</string>
+        <key>rules</key>
+        <array>
+          <string>spur</string>
+          <string>shear</string>
+          <string>no-curves</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

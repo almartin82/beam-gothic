@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Idotaccent" format="2">
+  <advance width="196"/>
+  <unicode hex="0130"/>
+  <anchor x="98" y="850" name="top"/>
+  <anchor x="98" y="0" name="bottom"/>
+  <anchor x="110" y="0" name="ogonek"/>
+  <outline>
+    <component base="I"/>
+    <component base="uni0307" xOffset="98"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>composed_of</key>
+        <array>
+          <string>I</string>
+          <string>uni0307</string>
+        </array>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>shear</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

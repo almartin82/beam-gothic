@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caron" format="2">
+  <advance width="310"/>
+  <unicode hex="02C7"/>
+  <outline>
+    <component base="uni030C" xOffset="155"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>component_of</key>
+        <string>uni030C</string>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array/>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,53 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn TRK;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+
+# I is too narrow for the wide accents. After I, a combining circumflex, dieresis or macron
+# takes its narrow form, so decomposed text matches the precomposed letters.
+@I_BASES = [I i dotlessi Iogonek iogonek];
+
+lookup ccmp_narrow_marks {
+    sub @I_BASES [uni0302 uni0308 uni0304]' by [uni0302.narrow uni0308.narrow uni0304.narrow];
+} ccmp_narrow_marks;
+
+# L with a combining caron takes the wedge caron beside the stem, which is a precomposed glyph.
+lookup ccmp_lcaron {
+    sub L uni030C by Lcaron;
+    sub l uni030C by lcaron;
+} ccmp_lcaron;
+
+feature ccmp {
+    lookup ccmp_lcaron;
+    lookup ccmp_narrow_marks;
+} ccmp;
+
+# Romanian and Moldovan write S and T with a comma below, not a cedilla.
+lookup locl_romanian {
+    sub Scedilla by uni0218;
+    sub scedilla by uni0219;
+    sub uni0162 by uni021A;
+    sub uni0163 by uni021B;
+} locl_romanian;
+
+# In the Turkic languages lowercase i is the dotted letter. The lowercase keys type capitals,
+# so i must show its dot there.
+lookup locl_dotted_i {
+    sub i by i.loclTRK;
+} locl_dotted_i;
+
+feature locl {
+    script latn;
+    language ROM; lookup locl_romanian;
+    language MOL; lookup locl_romanian;
+    language TRK; lookup locl_dotted_i;
+    language AZE; lookup locl_dotted_i;
+    language CRT; lookup locl_dotted_i;
+    language KAZ; lookup locl_dotted_i;
+    language TAT; lookup locl_dotted_i;
+} locl;

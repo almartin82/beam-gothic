@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="s" format="2">
+  <advance width="470"/>
+  <unicode hex="0073"/>
+  <anchor x="235" y="700" name="top"/>
+  <anchor x="235" y="0" name="bottom"/>
+  <outline>
+    <component base="S"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>component_of</key>
+        <string>S</string>
+        <key>decision</key>
+        <string>P2-lowercase:A</string>
+        <key>label</key>
+        <string>decided</string>
+        <key>rules</key>
+        <array/>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

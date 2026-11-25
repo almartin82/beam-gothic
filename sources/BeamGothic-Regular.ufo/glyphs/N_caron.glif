@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ncaron" format="2">
+  <advance width="540"/>
+  <unicode hex="0147"/>
+  <anchor x="270" y="850" name="top"/>
+  <anchor x="270" y="0" name="bottom"/>
+  <outline>
+    <component base="N"/>
+    <component base="uni030C" xOffset="270"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>composed_of</key>
+        <array>
+          <string>N</string>
+          <string>uni030C</string>
+        </array>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>shear</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Scaron" format="2">
+  <advance width="470"/>
+  <unicode hex="0160"/>
+  <anchor x="235" y="850" name="top"/>
+  <anchor x="235" y="0" name="bottom"/>
+  <outline>
+    <component base="S"/>
+    <component base="uni030C" xOffset="235"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>composed_of</key>
+        <array>
+          <string>S</string>
+          <string>uni030C</string>
+        </array>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array/>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

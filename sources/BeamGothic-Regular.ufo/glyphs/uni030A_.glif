@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni030A" format="2">
+  <unicode hex="030A"/>
+  <anchor x="0" y="700" name="_top"/>
+  <anchor x="0" y="850" name="top"/>
+  <outline>
+    <contour>
+      <point x="-44" y="745" type="line"/>
+      <point x="44" y="745" type="line"/>
+      <point x="78" y="779" type="line"/>
+      <point x="78" y="861" type="line"/>
+      <point x="44" y="895" type="line"/>
+      <point x="-44" y="895" type="line"/>
+      <point x="-78" y="861" type="line"/>
+      <point x="-78" y="779" type="line"/>
+    </contour>
+    <contour>
+      <point x="-24" y="789" type="line"/>
+      <point x="-34" y="799" type="line"/>
+      <point x="-34" y="841" type="line"/>
+      <point x="-24" y="851" type="line"/>
+      <point x="24" y="851" type="line"/>
+      <point x="34" y="841" type="line"/>
+      <point x="34" y="799" type="line"/>
+      <point x="24" y="789" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>no-curves</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

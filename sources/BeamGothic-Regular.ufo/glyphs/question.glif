@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="question" format="2">
+  <advance width="430"/>
+  <unicode hex="003F"/>
+  <outline>
+    <contour>
+      <point x="152" y="215" type="line"/>
+      <point x="288" y="276" type="line"/>
+      <point x="288" y="320" type="line"/>
+      <point x="364" y="320" type="line"/>
+      <point x="400" y="356" type="line"/>
+      <point x="400" y="640" type="line"/>
+      <point x="340" y="700" type="line"/>
+      <point x="30" y="700" type="line"/>
+      <point x="86" y="586" type="line"/>
+      <point x="242" y="586" type="line"/>
+      <point x="264" y="564" type="line"/>
+      <point x="264" y="442" type="line"/>
+      <point x="242" y="420" type="line"/>
+      <point x="152" y="420" type="line"/>
+    </contour>
+    <contour>
+      <point x="152" y="0" type="line"/>
+      <point x="288" y="61" type="line"/>
+      <point x="288" y="197" type="line"/>
+      <point x="152" y="136" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>shear</string>
+          <string>spur</string>
+          <string>no-curves</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

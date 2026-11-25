@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Euro" format="2">
+  <advance width="510"/>
+  <unicode hex="20AC"/>
+  <outline>
+    <contour>
+      <point x="130" y="0" type="line"/>
+      <point x="480" y="0" type="line"/>
+      <point x="424" y="114" type="line"/>
+      <point x="228" y="114" type="line"/>
+      <point x="206" y="136" type="line"/>
+      <point x="206" y="248" type="line"/>
+      <point x="350" y="248" type="line"/>
+      <point x="350" y="318" type="line"/>
+      <point x="206" y="318" type="line"/>
+      <point x="206" y="392" type="line"/>
+      <point x="350" y="392" type="line"/>
+      <point x="350" y="462" type="line"/>
+      <point x="206" y="462" type="line"/>
+      <point x="206" y="564" type="line"/>
+      <point x="228" y="586" type="line"/>
+      <point x="424" y="586" type="line"/>
+      <point x="480" y="700" type="line"/>
+      <point x="130" y="700" type="line"/>
+      <point x="70" y="640" type="line"/>
+      <point x="70" y="462" type="line"/>
+      <point x="20" y="462" type="line"/>
+      <point x="20" y="392" type="line"/>
+      <point x="70" y="392" type="line"/>
+      <point x="70" y="318" type="line"/>
+      <point x="20" y="318" type="line"/>
+      <point x="20" y="248" type="line"/>
+      <point x="70" y="248" type="line"/>
+      <point x="70" y="60" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>spur</string>
+          <string>no-curves</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

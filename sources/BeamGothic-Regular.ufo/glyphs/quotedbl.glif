@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedbl" format="2">
+  <advance width="296"/>
+  <unicode hex="0022"/>
+  <outline>
+    <contour>
+      <point x="52" y="480" type="line"/>
+      <point x="104" y="480" type="line"/>
+      <point x="126" y="700" type="line"/>
+      <point x="34" y="659" type="line"/>
+    </contour>
+    <contour>
+      <point x="192" y="480" type="line"/>
+      <point x="244" y="480" type="line"/>
+      <point x="266" y="700" type="line"/>
+      <point x="174" y="659" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>shear</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

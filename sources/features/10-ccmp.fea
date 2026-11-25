@@ -1,0 +1,18 @@
+# I is too narrow for the wide accents. After I, a combining circumflex, dieresis or macron
+# takes its narrow form, so decomposed text matches the precomposed letters.
+@I_BASES = [I i dotlessi Iogonek iogonek];
+
+lookup ccmp_narrow_marks {
+    sub @I_BASES [uni0302 uni0308 uni0304]' by [uni0302.narrow uni0308.narrow uni0304.narrow];
+} ccmp_narrow_marks;
+
+# L with a combining caron takes the wedge caron beside the stem, which is a precomposed glyph.
+lookup ccmp_lcaron {
+    sub L uni030C by Lcaron;
+    sub l uni030C by lcaron;
+} ccmp_lcaron;
+
+feature ccmp {
+    lookup ccmp_lcaron;
+    lookup ccmp_narrow_marks;
+} ccmp;

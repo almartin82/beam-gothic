@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beam Gothic: three decisions</title>
+<style>
+:root { --ground:#F2EDE1; --ink:#17181C; --red:#C42032; --rule:#cfc7b4; --soft:#5b5a55; --pick:#1d6b3a; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--ground); color:var(--ink); font:17px/1.55 "Avenir Next","Helvetica Neue",Arial,sans-serif; }
+main { max-width:1040px; margin:0 auto; padding:36px 20px 140px; }
+h1 { font-size:32px; margin:0 0 8px; }
+h2 { font-size:22px; margin:52px 0 6px; padding-top:16px; border-top:3px solid var(--ink); }
+p { max-width:70ch; margin:0 0 12px; }
+.sub { color:var(--soft); }
+.opt { display:block; width:100%; text-align:left; font:inherit; color:inherit; background:#fff; border:2px solid var(--rule); border-radius:6px; padding:12px 14px 6px; margin:14px 0; cursor:pointer; position:relative; }
+.opt:hover { border-color:var(--ink); }
+.opt:focus-visible { outline:3px solid var(--red); outline-offset:2px; }
+.opt[aria-pressed="true"] { border-color:var(--pick); box-shadow:0 0 0 3px var(--pick); }
+.opt[aria-pressed="true"]::after { content:"Your pick"; position:absolute; top:10px; right:12px; background:var(--pick); color:#fff; font-size:13px; font-weight:600; padding:2px 10px; border-radius:99px; }
+.opt .name { font-weight:700; }
+.opt .tag { color:var(--red); font-weight:700; margin-left:8px; font-size:14px; }
+.opt .why { display:block; color:var(--soft); font-size:15px; max-width:72ch; }
+.opt img { display:block; width:100%; height:auto; margin-top:6px; }
+.opt.text { padding-bottom:12px; }
+label { display:block; font-weight:600; margin:14px 0 4px; }
+input, textarea { width:100%; max-width:560px; font:inherit; padding:8px 10px; border:2px solid var(--rule); border-radius:6px; background:#fff; color:var(--ink); }
+.bar { position:fixed; left:0; right:0; bottom:0; background:var(--ink); color:var(--ground); padding:12px 20px; display:flex; gap:16px; align-items:center; flex-wrap:wrap; justify-content:center; }
+.bar button { font:inherit; font-weight:700; background:var(--red); color:#fff; border:0; border-radius:6px; padding:10px 22px; cursor:pointer; }
+.bar button:disabled { opacity:.5; cursor:default; }
+#status { font-size:15px; }
+code { font:14px Menlo,Consolas,monospace; background:#e6dfcf; padding:1px 5px; }
+#fallback { display:none; background:#fff; border:2px solid var(--ink); padding:12px; margin-top:16px; font:14px Menlo,Consolas,monospace; user-select:all; overflow-wrap:anywhere; }
+</style></head><body><main>
+<h1>Beam Gothic: three decisions</h1>
+<p class="sub">Click the option you want in each group, then Submit at the bottom. Every option is drawn in the font itself and set in words from the source. v2.000 is currently built on the ones marked Recommended.</p>
+
+<h2>1. Ampersand</h2>
+<p>The source has no ampersand, and the first draft was cut from v1.000. This is the least settled of the three, so "none of these" is a fair answer.</p>
+<div data-group="ampersand">
+<button class="opt" data-v="A"><span class="name">A. Et construction</span><span class="tag">Recommended</span><span class="why">E skeleton, a rising stroke, a spurred bar. The only one that can't be taken for another character in the font. On its own it leans toward a 6 with a crossbar.</span><img src="ampersand-A.png" alt="Option A set in BETHLEHEM STEEL and IRON"></button>
+<button class="opt" data-v="B"><span class="name">B. Figure-8 with a leg</span><span class="why">The cut v1.000 idea, redrawn. In a line it reads as the figure 8.</span><img src="ampersand-B.png" alt="Option B set in BETHLEHEM STEEL and IRON"></button>
+<button class="opt" data-v="C"><span class="name">C. Struck reversed 3</span><span class="why">Sign-painter's shorthand. In a line it reads as a cent or euro sign.</span><img src="ampersand-C.png" alt="Option C set in BETHLEHEM STEEL and IRON"></button>
+<button class="opt text" data-v="none"><span class="name">None of these</span><span class="why">Draw three new constructions for another round.</span></button>
+</div>
+
+<h2>2. At sign</h2>
+<div data-group="at">
+<button class="opt" data-v="A"><span class="name">A. Open ring around a small A</span><span class="tag">Recommended</span><span class="why">The A's foot runs out into the ring the way the tail of an @ does. Matches the O and keeps the font caps-only.</span><img src="at-A.png" alt="Option A set in STEEL at BETHLEHEM"></button>
+<button class="opt" data-v="B"><span class="name">B. Open ring around a boxed a</span><span class="why">Closest to a conventional @, at the cost of the font's only lowercase shape.</span><img src="at-B.png" alt="Option B set in STEEL at BETHLEHEM"></button>
+<button class="opt" data-v="C"><span class="name">C. Closed ring, no tail</span><span class="why">Reads more like a monogram than an @.</span><img src="at-C.png" alt="Option C set in STEEL at BETHLEHEM"></button>
+<button class="opt text" data-v="none"><span class="name">None of these</span><span class="why">Draw three new constructions for another round.</span></button>
+</div>
+
+<h2>3. Lowercase keys</h2>
+<div data-group="lowercase">
+<button class="opt" data-v="A"><span class="name">A. Capitals</span><span class="tag">Recommended</span><span class="why">The source is a caps-only wordmark, and nothing in it supports a second alphabet.</span><img src="lowercase-A.png" alt="Option A: Bethlehem Steel typed in mixed case shows all capitals"></button>
+<button class="opt" data-v="B"><span class="name">B. Small capitals</span><span class="why">Shown as a preview: capitals scaled to 80 percent, which thins the stems. Picking it means redrawing 26 letters and their accents at full weight before a release.</span><img src="lowercase-B.png" alt="Option B: lowercase letters shown as small capitals"></button>
+<button class="opt" data-v="C"><span class="name">C. No lowercase</span><span class="why">The boxes are where a browser would fall back to another font. Takes the font below Google Fonts Latin Core.</span><img src="lowercase-C.png" alt="Option C: lowercase letters missing, shown as boxes"></button>
+</div>
+
+<h2>4. Notes</h2>
+<input id="repo" type="hidden"><input id="vendor" type="hidden">
+<label for="notes">Anything else</label><textarea id="notes" rows="3" placeholder="Notes on any option"></textarea>
+<div id="fallback"></div>
+</main>
+<div class="bar"><span id="status">Pick one option in each of the three groups.</span><button id="submit" disabled>Submit picks</button></div>
+<script>
+const picks = {};
+const groups = ["ampersand", "at", "lowercase"];
+const statusEl = document.getElementById("status"), submit = document.getElementById("submit");
+function refresh() {
+  const left = groups.filter(g => !picks[g]);
+  submit.disabled = left.length > 0;
+  statusEl.textContent = left.length ? "Still to pick: " + left.join(", ") + "." : "Ready: " + groups.map(g => g + " " + picks[g]).join(", ") + ".";
+}
+document.querySelectorAll("[data-group]").forEach(box => {
+  box.querySelectorAll(".opt").forEach(btn => {
+    btn.setAttribute("aria-pressed", "false");
+    btn.addEventListener("click", () => {
+      box.querySelectorAll(".opt").forEach(b => b.setAttribute("aria-pressed", "false"));
+      btn.setAttribute("aria-pressed", "true");
+      picks[box.dataset.group] = btn.dataset.v;
+      refresh();
+    });
+  });
+});
+let dbPromise = null;
+try { dbPromise = window.claude && window.claude.use ? window.claude.use("db") : null; } catch (e) { dbPromise = null; }
+submit.addEventListener("click", async () => {
+  const record = { ampersand: picks.ampersand, at: picks.at, lowercase: picks.lowercase,
+    repo: document.getElementById("repo").value.trim(), vendor: document.getElementById("vendor").value.trim(),
+    notes: document.getElementById("notes").value.trim(), submittedAt: new Date().toISOString() };
+  submit.disabled = true;
+  statusEl.textContent = "Saving...";
+  let saved = false;
+  try {
+    const db = dbPromise ? await dbPromise : null;
+    if (db) { await db.doc("picks/current").set(record); saved = true; }
+  } catch (e) { saved = false; }
+  if (saved) {
+    statusEl.textContent = "Saved. Tell Claude you've voted and it will read your picks.";
+  } else {
+    const fb = document.getElementById("fallback");
+    fb.style.display = "block";
+    fb.textContent = "PICKS " + JSON.stringify(record);
+    fb.scrollIntoView({ block: "center" });
+    statusEl.textContent = "Couldn't save from this view. Copy the PICKS line above and paste it to Claude.";
+  }
+  submit.disabled = false;
+});
+refresh();
+</script>
+</body></html>

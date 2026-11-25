@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="divide" format="2">
+  <advance width="440"/>
+  <unicode hex="00F7"/>
+  <outline>
+    <contour>
+      <point x="30" y="290" type="line"/>
+      <point x="410" y="290" type="line"/>
+      <point x="410" y="390" type="line"/>
+      <point x="30" y="390" type="line"/>
+    </contour>
+    <contour>
+      <point x="172" y="126" type="line"/>
+      <point x="268" y="170" type="line"/>
+      <point x="268" y="266" type="line"/>
+      <point x="172" y="222" type="line"/>
+    </contour>
+    <contour>
+      <point x="172" y="414" type="line"/>
+      <point x="268" y="458" type="line"/>
+      <point x="268" y="554" type="line"/>
+      <point x="172" y="510" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>shear</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

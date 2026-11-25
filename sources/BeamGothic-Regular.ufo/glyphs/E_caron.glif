@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ecaron" format="2">
+  <advance width="430"/>
+  <unicode hex="011A"/>
+  <anchor x="215" y="850" name="top"/>
+  <anchor x="215" y="0" name="bottom"/>
+  <anchor x="330" y="0" name="ogonek"/>
+  <outline>
+    <component base="E"/>
+    <component base="uni030C" xOffset="215"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>composed_of</key>
+        <array>
+          <string>E</string>
+          <string>uni030C</string>
+        </array>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array/>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

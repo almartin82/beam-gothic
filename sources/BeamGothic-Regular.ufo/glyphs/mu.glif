@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mu" format="2">
+  <advance width="510"/>
+  <unicode hex="00B5"/>
+  <outline>
+    <contour>
+      <point x="30" y="-170" type="line"/>
+      <point x="166" y="-109" type="line"/>
+      <point x="166" y="0" type="line"/>
+      <point x="420" y="0" type="line"/>
+      <point x="480" y="60" type="line"/>
+      <point x="480" y="700" type="line"/>
+      <point x="344" y="639" type="line"/>
+      <point x="344" y="136" type="line"/>
+      <point x="322" y="114" type="line"/>
+      <point x="188" y="114" type="line"/>
+      <point x="166" y="136" type="line"/>
+      <point x="166" y="700" type="line"/>
+      <point x="30" y="639" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>shear</string>
+          <string>no-curves</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

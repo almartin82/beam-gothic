@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven" format="2">
+  <advance width="444"/>
+  <unicode hex="0037"/>
+  <outline>
+    <contour>
+      <point x="146" y="0" type="line"/>
+      <point x="291" y="65" type="line"/>
+      <point x="427" y="586" type="line"/>
+      <point x="430" y="586" type="line"/>
+      <point x="430" y="700" type="line"/>
+      <point x="30" y="700" type="line"/>
+      <point x="86" y="586" type="line"/>
+      <point x="299" y="586" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>label</key>
+        <string>extrapolated</string>
+        <key>rules</key>
+        <array>
+          <string>spur</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

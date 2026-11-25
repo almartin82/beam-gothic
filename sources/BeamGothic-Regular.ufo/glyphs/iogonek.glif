@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iogonek" format="2">
+  <advance width="196"/>
+  <unicode hex="012F"/>
+  <anchor x="98" y="700" name="top"/>
+  <anchor x="98" y="0" name="bottom"/>
+  <anchor x="110" y="0" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="26" y="-160" type="line"/>
+      <point x="172" y="-160" type="line"/>
+      <point x="116" y="-92" type="line"/>
+      <point x="96" y="-92" type="line"/>
+      <point x="136" y="48" type="line"/>
+      <point x="166" y="61" type="line"/>
+      <point x="166" y="700" type="line"/>
+      <point x="30" y="639" type="line"/>
+      <point x="30" y="0" type="line"/>
+      <point x="56" y="12" type="line"/>
+      <point x="26" y="-92" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontmachine.provenance</key>
+      <dict>
+        <key>composed_of</key>
+        <array>
+          <string>I</string>
+          <string>uni0328</string>
+        </array>
+        <key>decision</key>
+        <string>P2-lowercase:A</string>
+        <key>label</key>
+        <string>decided</string>
+        <key>rules</key>
+        <array>
+          <string>shear</string>
+          <string>spur</string>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
