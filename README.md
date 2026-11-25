@@ -4,8 +4,6 @@ A caps-only display font, drawn from the lettering in the old Bethlehem Steel wo
 
 Version 2.001 covers Google Fonts Latin Core (344 glyphs, accents, kerning) and is licensed under the SIL Open Font License 1.1.
 
-To be clear, this is my own drawing and not the trademark. The I-beam emblem isn't in the font.
-
 ## Motivation
 
 <img src="documentation/specimen/pennant-highmark-stadium.jpg" alt="A cream felt banner reading BETHLEHEM STEEL in black chiseled capitals over a red I-beam, hanging at Highmark Stadium" width="420">
