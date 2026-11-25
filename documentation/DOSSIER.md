@@ -12,6 +12,8 @@ The three style decisions went to the panel and were picked on 2026-11-25. One i
 
 ## The source, and what it documents
 
+The starting point was a photo taken on November 22, 2026 of a felt banner in the Blue Moon Bar at Highmark Stadium, made by Oxford Pennant of Buffalo (`documentation/specimen/pennant-highmark-stadium.jpg`). The banner's letters are hand-cut and copy the Bethlehem wordmark. The banner is the reason the font exists, but it is not in the letter inventory: the inventory holds only the company's own printed marks.
+
 The lettering comes from the Bethlehem Steel wordmark as it appears on catalog covers from 1931 to 1966, eight of which are in the inventory (`sources/beam/inventory.py`). The wordmark only ever spelled BETHLEHEM STEEL, so seven letters are documented: B E H L M S T. The 1961 Structural Shapes cover is the main reference.
 
 Three rules were read from those letters:

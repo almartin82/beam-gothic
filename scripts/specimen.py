@@ -71,6 +71,9 @@ p {{ max-width:68ch; margin:0 0 14px; }}
 .banner .beam {{ font-size:clamp(48px,12.6vw,150px); white-space:nowrap; }}
 .banner .beam + .beam {{ font-size:clamp(24px,5.2vw,62px); color:var(--red); margin-top:6px; }}
 .banner p {{ margin:18px 0 0; color:#b9b4a6; }}
+.origin {{ display:grid; grid-template-columns:minmax(240px,440px) 1fr; gap:36px; align-items:start; margin-top:22px; }}
+.origin figure {{ margin:0; }} .origin img {{ display:block; width:100%; height:auto; }} .origin figcaption {{ margin-top:8px; }}
+@media (max-width:760px) {{ .origin {{ grid-template-columns:1fr; }} }}
 .grid {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(74px,1fr)); border-top:1px solid var(--rule); border-left:1px solid var(--rule); margin-top:22px; }}
 .cell {{ border-right:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:14px 4px 6px; text-align:center; }}
 .cell .g {{ display:block; font:400 40px/1.35 "Beam Gothic",sans-serif; height:62px; }}
@@ -96,6 +99,9 @@ footer {{ margin-top:64px; padding-top:16px; border-top:3px solid var(--ink); fo
 <div class="key mono"><span class="d"><i></i>{P['key_documented']}</span><span><i></i>{P['key_other']}</span></div>
 
 <div class="banner"><div class="beam">BURNS HARBOR</div><div class="beam">PLANT · INDIANA</div><p>{P['banner_note']}</p></div>
+
+<h2 class="mono">Where it started</h2>
+<div class="origin"><figure><img src="pennant-highmark-stadium.jpg" alt="A cream felt banner reading BETHLEHEM STEEL in black chiseled capitals over a red I-beam, hanging among other pennants at Highmark Stadium"><figcaption class="mono">{P['origin_caption']}</figcaption></figure><p class="lede">{P['origin']}</p></div>
 
 <h2 class="mono">Character set</h2>
 <p>{P['charset_intro']}</p>

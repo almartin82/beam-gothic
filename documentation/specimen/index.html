@@ -21,6 +21,9 @@ p { max-width:68ch; margin:0 0 14px; }
 .banner .beam { font-size:clamp(48px,12.6vw,150px); white-space:nowrap; }
 .banner .beam + .beam { font-size:clamp(24px,5.2vw,62px); color:var(--red); margin-top:6px; }
 .banner p { margin:18px 0 0; color:#b9b4a6; }
+.origin { display:grid; grid-template-columns:minmax(240px,440px) 1fr; gap:36px; align-items:start; margin-top:22px; }
+.origin figure { margin:0; } .origin img { display:block; width:100%; height:auto; } .origin figcaption { margin-top:8px; }
+@media (max-width:760px) { .origin { grid-template-columns:1fr; } }
 .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(74px,1fr)); border-top:1px solid var(--rule); border-left:1px solid var(--rule); margin-top:22px; }
 .cell { border-right:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:14px 4px 6px; text-align:center; }
 .cell .g { display:block; font:400 40px/1.35 "Beam Gothic",sans-serif; height:62px; }
@@ -46,6 +49,9 @@ footer { margin-top:64px; padding-top:16px; border-top:3px solid var(--ink); fon
 <div class="key mono"><span class="d"><i></i>Documented in the source</span><span><i></i>Extrapolated or decided</span></div>
 
 <div class="banner"><div class="beam">BURNS HARBOR</div><div class="beam">PLANT · INDIANA</div><p>Bethlehem&#x27;s mill on the Indiana shore of Lake Michigan, set in letters the company never drew: the wordmark holds no U, N, R, A or O.</p></div>
+
+<h2 class="mono">Where it started</h2>
+<div class="origin"><figure><img src="pennant-highmark-stadium.jpg" alt="A cream felt banner reading BETHLEHEM STEEL in black chiseled capitals over a red I-beam, hanging among other pennants at Highmark Stadium"><figcaption class="mono">Oxford Pennant banner, Blue Moon Bar, Highmark Stadium. Photo: Andy Martin.</figcaption></figure><p class="lede">Beam Gothic started with this photo, taken at a Bills game on November 22, 2026. The felt banner hangs in the Blue Moon Bar at Highmark Stadium and was made by Oxford Pennant of Buffalo. Its letters are hand-cut, not set in a font, and they copy the wordmark Bethlehem Steel printed on its catalogs. The question was what font it was. The answer was that there wasn&#x27;t one.</p></div>
 
 <h2 class="mono">Character set</h2>
 <p>344 glyphs covering Google Fonts Latin Core: every accented capital used across Western, Central and Eastern European Latin, with the lowercase keys typing the same capitals. The seven red letters are the ones the catalogs show. A black glyph is our drawing, made to sit beside them without claiming their evidence.</p>

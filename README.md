@@ -6,6 +6,45 @@ Version 2.001 covers Google Fonts Latin Core: 344 glyphs, accents composed throu
 
 Beam Gothic is an original drawing, not the trademark. It does not contain the hexagonal I-beam emblem.
 
+## Motivation
+
+<img src="documentation/specimen/pennant-highmark-stadium.jpg" alt="A cream felt banner reading BETHLEHEM STEEL in black chiseled capitals over a red I-beam, hanging at Highmark Stadium" width="420">
+
+It started with this photo: a felt banner in the Blue Moon Bar at Highmark Stadium, made by Oxford Pennant of Buffalo and photographed at a Bills game on November 22, 2026. The question was what font it was. The answer was that there wasn't one. The letters are hand-cut from felt, and they copy the wordmark Bethlehem Steel printed on its own catalogs.
+
+### Into the archive
+
+About two dozen Bethlehem Steel catalog covers on the Internet Archive, most of them in the Building Technology Heritage Library, show where the lettering came from and how it changed:
+
+- **1931.** The earliest example found, on [Bethlehem Sections](https://archive.org/details/BethlehemSteelCompanyCCA72866). The letters are thin and light, but the chisel cuts are already there.
+- **1936 to 1937.** The same lettering, gold-stamped on [Catalogue 107](https://archive.org/details/bethlehem-steel-company-pdf-a) and embossed on [Carbon Steel Bars and Special Sections](https://archive.org/details/BethlehemCarbonSteelBarsAndSpecialSectionsWithProfilesTables).
+- **1950s and 1960s.** Redrawn much heavier. The [1950 fence catalog](https://archive.org/details/BethelemSteelFenceBarbedWireFencePostsBaleTiesNailsAndStaples) is the closest match to the stadium banner, and the [1961 Structural Shapes](https://archive.org/details/BethlehemStructuralShapesInformationAndTablesForArchitectsEngineers_904) cover has the clearest letterforms, so it became the main reference. The mark also appears reversed out of black on the [1959 joist catalog](https://archive.org/details/BethlehemOpen-webSteelJoistssSeries_825).
+- **1966.** [Still in use](https://archive.org/details/whosayssteelfram00beth).
+
+### What the letters show
+
+Read off the 1961 mark:
+
+- Stem bottoms are sheared on a diagonal, low point at the left. The T, H and M show it most clearly.
+- On a free arm end the outer edge runs longer: the top arm of the E points up, and the foot of the L and the bottom arm of the E point down.
+- The bowls of the B are rectangles with clipped corners and nearly square counters.
+- The S is angular, close to a Z with clipped turns.
+- The original lockup arches its baseline. That belongs to the layout, not the letters, so the font leaves it out.
+
+Those observations became the three cutting rules.
+
+### Why a font had to be extrapolated
+
+In everything surveyed, this lettering appears only inside the company's mark, and the mark only ever says BETHLEHEM STEEL. That is seven letters: B E H L M S T. Other display lettering on Bethlehem covers is ordinary type and offers nothing to borrow. The 1929 [Lackawanna Steel Sheet Piling](https://archive.org/details/LackawanaSteelSheetPiling) cover uses a plain block gothic, and the 1947 [Wire Nails](https://archive.org/details/BethlehemWireNailsAndOtherWireProducts) catalog a condensed grotesque.
+
+So the other 19 capitals, the figures and everything else in Beam Gothic are drawn by the rules and labeled as extrapolated. Only the seven are marked documented.
+
+### Where the search stopped
+
+Only catalog covers were checked. Interiors, advertisements, plant signage, Bethlehem Review covers and ship builder's plates were not, and any of them could turn an extrapolated letter into a documented one. No record turned up of who drew the mark or when it was introduced.
+
+## Specimen
+
 ![Specimen](documentation/specimen/BeamGothic-Specimen.png)
 
 ## Sources
