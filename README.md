@@ -1,47 +1,45 @@
 # Beam Gothic
 
-A caps-only display face drawn after the lettering of the Bethlehem Steel wordmark, c. 1931 to 1966. Seven letters (B E H L M S T) are documented in the source. Everything else follows three cutting rules read from them: sheared stem ends, spurred arms, no curves.
+A caps-only display font, drawn from the lettering in the old Bethlehem Steel wordmark (on their catalogs from 1931 to at least 1966). The wordmark only gives you seven letters: B E H L M S T. I drew everything else from three rules those seven follow - sheared stem ends, spurred arms, no curves.
 
-Version 2.001 covers Google Fonts Latin Core: 344 glyphs, accents composed through anchors, class kerning, `mark`, `mkmk`, `ccmp` and `locl`. Licensed under the SIL Open Font License 1.1.
+Version 2.001 covers Google Fonts Latin Core (344 glyphs, accents, kerning) and is licensed under the SIL Open Font License 1.1.
 
-Beam Gothic is an original drawing, not the trademark. It does not contain the hexagonal I-beam emblem.
+To be clear, this is my own drawing and not the trademark. The I-beam emblem isn't in the font.
 
 ## Motivation
 
 <img src="documentation/specimen/pennant-highmark-stadium.jpg" alt="A cream felt banner reading BETHLEHEM STEEL in black chiseled capitals over a red I-beam, hanging at Highmark Stadium" width="420">
 
-It started with this photo: a felt banner in the Blue Moon Bar at Highmark Stadium, made by Oxford Pennant of Buffalo and photographed at a Bills game on November 22, 2026. The question was what font it was. The answer was that there wasn't one. The letters are hand-cut from felt, and they copy the wordmark Bethlehem Steel printed on its own catalogs.
+I took this picture at a Bills game on November 22, 2026. The banner hangs in the Blue Moon Bar at Highmark Stadium (Oxford Pennant, out of Buffalo, made it) and I wanted to know what font it was.
+
+It isn't one. The letters are hand-cut felt, copied from the mark Bethlehem Steel put on its own catalogs. So I went looking for the catalogs.
 
 ### Into the archive
 
-About two dozen Bethlehem Steel catalog covers on the Internet Archive, most of them in the Building Technology Heritage Library, show where the lettering came from and how it changed:
+The Internet Archive has ~two dozen Bethlehem catalog covers, mostly in the Building Technology Heritage Library. Lined up by date, you can watch the lettering change:
 
-- **1931.** The earliest example found, on [Bethlehem Sections](https://archive.org/details/BethlehemSteelCompanyCCA72866). The letters are thin and light, but the chisel cuts are already there.
-- **1936 to 1937.** The same lettering, gold-stamped on [Catalogue 107](https://archive.org/details/bethlehem-steel-company-pdf-a) and embossed on [Carbon Steel Bars and Special Sections](https://archive.org/details/BethlehemCarbonSteelBarsAndSpecialSectionsWithProfilesTables).
-- **1950s and 1960s.** Redrawn much heavier. The [1950 fence catalog](https://archive.org/details/BethelemSteelFenceBarbedWireFencePostsBaleTiesNailsAndStaples) is the closest match to the stadium banner, and the [1961 Structural Shapes](https://archive.org/details/BethlehemStructuralShapesInformationAndTablesForArchitectsEngineers_904) cover has the clearest letterforms, so it became the main reference. The mark also appears reversed out of black on the [1959 joist catalog](https://archive.org/details/BethlehemOpen-webSteelJoistssSeries_825).
-- **1966.** [Still in use](https://archive.org/details/whosayssteelfram00beth).
+- 1931: the earliest one I found, on [Bethlehem Sections](https://archive.org/details/BethlehemSteelCompanyCCA72866). Thin, light letters, but the chisel cuts are already there.
+- 1936-37: same lettering, gold-stamped on [Catalogue 107](https://archive.org/details/bethlehem-steel-company-pdf-a) and embossed on [Carbon Steel Bars and Special Sections](https://archive.org/details/BethlehemCarbonSteelBarsAndSpecialSectionsWithProfilesTables).
+- 1950s and 60s: redrawn a lot heavier. The [1950 fence catalog](https://archive.org/details/BethelemSteelFenceBarbedWireFencePostsBaleTiesNailsAndStaples) is the closest match to the banner. The [1961 Structural Shapes](https://archive.org/details/BethlehemStructuralShapesInformationAndTablesForArchitectsEngineers_904) cover is the cleanest, so that's the one I drew from. There's also a nice reversed-out version on the [1959 joist catalog](https://archive.org/details/BethlehemOpen-webSteelJoistssSeries_825).
+- 1966: [still using it](https://archive.org/details/whosayssteelfram00beth).
 
-### What the letters show
+### What the letters do
 
-Read off the 1961 mark:
+Looking closely at the 1961 mark:
 
-- Stem bottoms are sheared on a diagonal, low point at the left. The T, H and M show it most clearly.
-- On a free arm end the outer edge runs longer: the top arm of the E points up, and the foot of the L and the bottom arm of the E point down.
-- The bowls of the B are rectangles with clipped corners and nearly square counters.
-- The S is angular, close to a Z with clipped turns.
-- The original lockup arches its baseline. That belongs to the layout, not the letters, so the font leaves it out.
+- The bottoms of the stems are cut on a diagonal, low on the left. Easiest to see on the T, H and M.
+- Where an arm ends in open space, its outside edge runs a little longer than the inside. The top arm of the E kicks up, and the foot of the L kicks down.
+- The B has no curves at all. Its bowls are rectangles with the corners clipped off.
+- The S is basically a Z with clipped turns.
+- The real mark sits on an arched baseline. I left that out, since it's a layout choice and not part of the letters.
 
-Those observations became the three cutting rules.
+Those turned into the three rules the rest of the font is built on.
 
-### Why a font had to be extrapolated
+### Seven letters
 
-In everything surveyed, this lettering appears only inside the company's mark, and the mark only ever says BETHLEHEM STEEL. That is seven letters: B E H L M S T. Other display lettering on Bethlehem covers is ordinary type and offers nothing to borrow. The 1929 [Lackawanna Steel Sheet Piling](https://archive.org/details/LackawanaSteelSheetPiling) cover uses a plain block gothic, and the 1947 [Wire Nails](https://archive.org/details/BethlehemWireNailsAndOtherWireProducts) catalog a condensed grotesque.
+As far as I can tell, Bethlehem never used this lettering for anything except the mark, and the mark only ever says BETHLEHEM STEEL. The other lettering on their covers is ordinary type, which doesn't help: a plain block gothic on the 1929 [Lackawanna Steel Sheet Piling](https://archive.org/details/LackawanaSteelSheetPiling) cover, a condensed grotesque on the 1947 [Wire Nails](https://archive.org/details/BethlehemWireNailsAndOtherWireProducts) catalog.
 
-So the other 19 capitals, the figures and everything else in Beam Gothic are drawn by the rules and labeled as extrapolated. Only the seven are marked documented.
-
-### Where the search stopped
-
-Only catalog covers were checked. Interiors, advertisements, plant signage, Bethlehem Review covers and ship builder's plates were not, and any of them could turn an extrapolated letter into a documented one. No record turned up of who drew the mark or when it was introduced.
+So seven letters are real and the rest are my best guess at what the same hand would have cut. The font keeps track of which is which (the seven are in red on the specimen).
 
 ## Specimen
 
@@ -49,7 +47,7 @@ Only catalog covers were checked. Interiors, advertisements, plant signage, Beth
 
 ## Sources
 
-The wordmark as it ran on Bethlehem Steel catalog covers, opened as page images on the Internet Archive. The 1961 cover is the main letterform reference. (The specimen above is a picture, so its source list isn't clickable. These are the same links.)
+The catalog covers, all on the Internet Archive. The links in the specimen image above aren't clickable (it's a picture), so here they are again.
 
 | Year | Catalog |
 |---|---|
@@ -86,4 +84,4 @@ make gate      # release gate; writes build/gate-report.md
 
 Other targets: `make check-v1100` (does the program still reproduce the v1.100 outlines), `make bounds`, `make bake-googlefonts`. `python scripts/specimen.py` rebuilds the specimen page, `python scripts/panel.py` the panel sheets, `python scripts/kern_report.py` the kerning comparison.
 
-Every glyph carries a provenance label in the UFO lib (`org.fontmachine.provenance`): documented, extrapolated or decided. The gate fails any glyph that claims more evidence than `sources/beam/inventory.py` holds.
+Every glyph is labeled in the UFO lib (`org.fontmachine.provenance`) as documented, extrapolated or decided. The gate fails a glyph that claims to be documented when `sources/beam/inventory.py` doesn't back it up.
